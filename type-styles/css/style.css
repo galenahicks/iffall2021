@@ -1,0 +1,65 @@
+html{
+    background-color: rgb(219, 241, 220);
+    font-family: 'Ubuntu', sans-serif;
+    color:rgb(46, 75, 48);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+.heading{
+    text-align: center;
+}
+
+#topline{
+    font-size: 50px;
+}
+
+.titulo{
+    margin-top: 7%;
+    font-size: 33px;
+    text-align: left;
+}
+
+.abajo{
+    font-size: 20px;
+    text-align: left;
+}
+#bold{
+    font-weight: bold;
+}
+#italic{
+    font-style: italic;
+}
+
+#closespacing{
+    letter-spacing: -0.05em;
+}
+
+#widespacing{
+    letter-spacing: 0.07em;
+}
+
+#capitalize{
+    text-transform: capitalize;
+}
+
+#uppercase{
+    text-transform: uppercase;
+}
+
+#lowercase{
+    text-transform: lowercase;
+}
+
+#overline{
+    text-decoration: overline;
+}
+
+#underline{
+    text-decoration: underline;
+}
+
+#line-through{
+    text-decoration: line-through;
+}
