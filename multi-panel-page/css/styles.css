@@ -1,0 +1,90 @@
+html{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    color: rgb(168, 242, 255);
+}
+
+h2{
+    text-align: center;
+    font-size: 1.89rem;
+    margin-top: 0.11%;
+    margin-left: -0.6;
+    color: rgb(168, 242, 255);
+}
+
+
+
+header{
+    background-color: rgba(255,0,0,0.3);
+    background-image: url(https://pro2-bar-s3-cdn-cf3.myportfolio.com/42e18dbb-9dc4-4d62-9845-c8698f2eb1f7/440a9770-b62c-42bf-b4c5-4934dbaff08b_rw_3840.png?h=b2691baaad80a8d370cc4d024ff6670f);
+}
+
+.content{
+    width: 960px;
+    background-color: rgba(0,0,255,0.0);
+    margin: auto;
+
+}
+
+header .content{
+    padding: 150px 0px 150px 0px;
+}
+
+header h1{
+    font-size: 80px;
+}
+
+section .content{
+    padding: 55px 0px 55px 0px;
+}
+
+.section1 h1{
+    font-size: 40px;
+}
+
+.section1 p{
+    font-size: 17.8px;
+}
+
+#firstpic{
+    width: 50%;
+    float: right;
+}
+
+.section1{
+    background-color: coral;
+}
+
+.section2 h1{
+    font-size: 40px;
+}
+
+#gridjawn{
+    width: 500,500;
+}
+
+.photogrid{
+    width:20%;
+    float: left;
+    padding: 4%;
+}
+
+.section2{
+    padding: 0;
+    
+}
+
+#gridjawn li{
+    display: block;
+    float: left;
+}
+
+#gridjawn li::after{
+    content: "";
+    display: block;
+    clear: both;
+}
