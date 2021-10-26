@@ -1,0 +1,196 @@
+html{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(176, 250, 176);
+    color:rgb(13, 70, 13)
+}
+
+header{
+    font-size: 45px;
+    text-align: center;
+    padding: 1%;
+    font-weight: normal;
+}
+
+.subhead{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.firstsection{
+    float:left;
+    padding-left: 5%;
+}
+
+.firstbox{
+    height: 300px;
+    width:600px;
+    background-color:rgba(52, 209, 47, 0.233) ;
+    border: 7px solid rgb(48, 158, 48, 0.125);
+    border-radius: 33px;
+}
+
+#whatyouneed{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.secondsection{
+    float: right;
+    padding-right: 5%;
+    padding-top: 0%;
+}
+.secondbox{
+    height: 300px;
+    width:600px;
+    background-color:rgba(52, 209, 47, 0.233) ;
+    border: 7px solid rgb(48, 158, 48, 0.125);
+    border-radius: 33px;
+    /* padding-top: 6%; */
+}
+
+#matchapic{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.thirdsection{
+    float: left;
+    padding-top: 5%;
+    padding-right: 1%;
+    padding: 1%;
+    margin-left: 15%;
+    /* padding-left: 15%; */
+    /* padding-left: 5%; */
+}
+
+.thirdbox{
+    height: 500px;
+    width: 1500px;
+    width:100%;
+    background-color:rgba(52, 209, 47, 0.233) ;
+    border: 7px solid rgb(48, 158, 48, 0.125);
+    border-radius: 33px;
+    /* padding-left: 5%; */
+}
+
+#howtomakeit{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.onethruthree{
+    height: 200px;
+    width: 200px;
+    /* background-color: rgba(255, 127, 80, 0.404); */
+    float: left;
+    padding-left: 13%;
+}
+
+.ingredients13{
+    font-size: 27px;
+}
+
+.threethrusix{
+    height: 200px;
+    width: 200px;
+    /* background-color: rgba(255, 127, 80, 0.404); */
+    float: right;
+    padding-right: 13%;
+}
+
+.ingredients16{
+    font-size: 27px;
+}
+
+.boxforsteps{
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+.instructions{
+    text-transform: capitalize;
+    font-size: 27px;
+}
+
+@media only screen and (max-width: 933px) {
+    .instructions {
+      font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 594px) {
+    .instructions {
+      font-size: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 476px) {
+    .instructions {
+      font-size: 14px;
+    }
+  }
+
+  @media only screen and (max-width: 382px) {
+    .instructions {
+      font-size: 12px;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .instructions {
+      font-size: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 660px) {
+    .secondbox {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 660px) {
+    .firstbox {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 660px) {
+    .ingredients13 > li {
+      font-size: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 660px) {
+    .ingredients16 > li {
+      font-size: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 660px) {
+    .onethruthree {
+      width: 90px;
+      height: 90px;
+    }
+  }
+
+  @media only screen and (max-width: 660px) {
+    .onethruthree {
+      padding: 0%;
+    }
+  }
+
+  @media only screen and (max-width: 660px) {
+    .threethrusix {
+      width: 90px;
+      height: 90px;
+    }
+  }
+
+  
+
