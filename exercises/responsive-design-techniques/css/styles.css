@@ -1,0 +1,23 @@
+
+
+body{
+    margin-left: auto; 
+    margin-right: auto;
+    width: 90%;
+    max-width: 800px;
+}
+
+@media (min-width: 640px) {
+    html {
+      background-color: #eaf6ff;
+    }
+  }
+
+  @media (max-width: 500px) {}
+    h1{
+        font-size: 1.5rem;
+    }
+ 
+    #fixed-size-grid-items{
+        display: block;
+    }
