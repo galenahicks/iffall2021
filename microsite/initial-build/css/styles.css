@@ -2,68 +2,198 @@
     width: 25%;
     float: left;
     margin-left: 37%;
-    margin-top: 1%;
+    margin-top: -4.5%;
 }
 
 html{
     background-image: url(https://pro2-bar-s3-cdn-cf.myportfolio.com/ec1b3687-e237-4c2e-be21-208a9104a386/b472cb1c-8931-4d7b-990d-9526d15b1310.jpg?h=f0efa2e7dcb56064e3633f297f735463); 
     background-size: cover;
-
+    font-family: 'EB Garamond', serif;
 }
+
+
 
 .box1{
     height: 70px;
     width: 210px;
-    background-color: black;
+    background-color: rgb(255, 216, 157);
     float: left;
-    margin-top: 13%;
-    margin-left: -50%;
+    margin-top: 15%;
+    margin-left: -57%;
+    text-align: center;
+    font-size:1em;
+    border: 3px solid rgb(0, 0, 0);
 }
 
 .box2{
     height: 70px;
     width: 210px;
-    background-color: black;
+    background-color: rgb(255, 216, 157);
     float: left;
-    margin-top: 13%;
-    margin-left: -30%;
+    margin-top: 15%;
+    margin-left: -37%;
+    text-align: center;
+    font-size:1em;
+    border: 3px solid rgb(0, 0, 0);
 }
 
 .box3{
     height: 70px;
     width: 210px;
-    background-color: black;
+    background-color: rgb(255, 216, 157);
     float: left;
-    margin-top: 13%;
-    margin-left: -10%;
+    margin-top: 15%;
+    margin-left: -17%;
+    text-align: center;
+    font-size:1em;
+    border: 3px solid rgb(0, 0, 0);
 }
 
 .box4{
     height: 70px;
     width: 210px;
-    background-color: black;
+    background-color: rgb(255, 216, 157);
     float: left;
-    margin-top: 13%;
-    margin-left: 10%;
+    margin-top: 15%;
+    margin-left: 3%;
+    text-align: center;
+    font-size:1em;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.box45{
+    height: 70px;
+    width: 210px;
+    background-color: rgb(255, 216, 157);
+    float: left;
+    margin-top: 15%;
+    margin-left: 8%;
+    text-align: center;
+    font-size:1em;
+    border: 3px solid rgb(0, 0, 0);
 }
 
 .box5{
-    height: 450px;
+    height: 925px;
     width: 550px;
-    background-color: rgba(255, 255, 255, 0.534);
+    background-color: rgb(255, 216, 157);
     float: left;
     margin-top: 6%;
     margin-left: 12%;
+    border: 3px solid rgb(0, 0, 0);
 }
 .box6{
-    height: 450px;
+    height: 925px;
     width: 550px;
-    background-color: rgba(255, 255, 255, 0.534);
+    background-color: rgb(255, 216, 157);
     float: left;
     margin-top: 6%;
     margin-left: 12%;
+    border: 3px solid rgb(0, 0, 0);
 }
 .text1{
     line-height: 130%;
     margin-left: 2%;
+    font-size: 0.95em;
 }
+
+.navbutton{
+    color: black;
+}
+
+.navbutton:hover{
+    box-shadow: 0 0 33px #ff0000;
+    background-color: black;
+    color: white;
+    border: 3px solid rgb(255, 216, 157);
+}
+
+.dndbox{
+    width:100%;
+}
+
+.subtitles{
+    margin-top: 16%;
+    margin-left: -60%;
+    float: left;
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.445); */
+    border: 3px solid rgb(255, 216, 157);
+    width: 755px;
+    height: 170px;
+    font-size: 3.5em;
+    text-align: left;
+    font-weight: bold;
+}
+
+.subts{
+    margin-top: -0.07%;
+    margin-left: 2%;
+}
+
+.textunder{
+    float: left;
+    width: 755px;
+    height: 680px;
+    background-color: rgb(255, 216, 157);
+    border: 3px solid rgb(0, 0, 0);
+    margin-top: 7.5%;
+    margin-left: 2%;
+}
+
+.tunder{
+    margin-left: 1.5%;
+}
+
+.pix{
+    float: left;
+    background-color: rgb(255, 216, 157);
+    border: 3px solid rgb(0, 0, 0);
+    width: 755px;
+    height: 500px;
+    margin-left: 4%;
+    margin-top: -4.4%;
+}
+
+.imagez{
+    width: 100%;
+}
+
+.textunder2{
+    height: 1130px;
+}
+
+.pixcul{
+    height: 800px;
+}
+
+.pix3{
+    width: 50%;
+}
+
+.textunder5{
+    height:880px
+}
+
+@media only screen and (max-width: 1389px) {
+    .box2{
+        margin-left: 5%;
+    }
+    .box3{
+        margin-left: 5%;
+    }
+    .box4{
+        margin-left: 5.2%;
+    }
+    .box45{
+        margin-left: 5%;
+    }
+    .box6{
+        float: right;
+        margin-top: -68%;
+    }
+    .navbutton {
+        width: 85%;
+      
+    }
+  }
