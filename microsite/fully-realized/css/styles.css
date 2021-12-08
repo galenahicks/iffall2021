@@ -8,6 +8,7 @@
 html{
     background-image: url(https://pro2-bar-s3-cdn-cf.myportfolio.com/ec1b3687-e237-4c2e-be21-208a9104a386/b472cb1c-8931-4d7b-990d-9526d15b1310.jpg?h=f0efa2e7dcb56064e3633f297f735463); 
     background-size: cover;
+    /* background-origin: border-box; */
     font-family: 'EB Garamond', serif;
 }
 
@@ -175,25 +176,117 @@ html{
     height:880px
 }
 
-@media only screen and (max-width: 1389px) {
+@media only screen and (max-width: 1624px) {
     .box2{
         margin-left: 5%;
+        margin-top: 5%;
     }
     .box3{
         margin-left: 5%;
+        margin-top: 5%;
     }
     .box4{
         margin-left: 5.2%;
+        margin-top: 5%;
     }
     .box45{
         margin-left: 5%;
+        margin-top: 5%;
+    }
+    .box5{
+        margin-left: 5%;
     }
     .box6{
-        float: right;
-        margin-top: -68%;
+        margin-left: 3%;
+        
     }
     .navbutton {
         width: 85%;
-      
+        
+    }
+    
+  }
+
+  @media only screen and (max-width: 469px) {
+    .box1{
+        margin-left: 25%;
+
+    }
+    .box2{
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+    .box3{
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+    .box4{
+        margin-left: 26%;
+        margin-top: 5%;
+    }
+    .box45{
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+    
+    
+  }
+
+  @media only screen and (max-width: 794px) {
+   .subtitles{
+       width: 95%;
+        
+   }
+
+   .subts{
+       font-size: 75%;
+   }
+  }
+
+  @media only screen and (max-width: 590px) {
+    .subtitles{
+        width: 95%;
+    }
+ 
+    .subts{
+        font-size: 65%;
+    }
+  }
+
+  @media only screen and (max-width: 575px) {
+    .subtitles{
+        width: 95%;
+    }
+ 
+    .subts{
+        font-size: 45%;
+    }
+  }
+
+  @media only screen and (max-width: 794px) {
+    .textunder{
+        transform:scale(0.9);
+    }
+  }
+
+  @media only screen and (max-width: 748px) {
+    .textunder{
+        transform:scale(0.7);
+        margin-top: -7%;
+        margin-left: -8%;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .textunder{
+        transform:scale(0.7);
+        height: 200%;
+        margin-top: -7%;
+        margin-left: -8%;
+    }
+    .subtitles{
+        margin-left: 45%;
+        font-size: 6em;
+        text-align: center;
     }
   }
